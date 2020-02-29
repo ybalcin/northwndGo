@@ -3,8 +3,8 @@ package utils
 import (
 	"cloud.google.com/go/firestore"
 	"encoding/json"
+	h "github.com/ybalcin/northwndGo/helper"
 	"net/http"
-	h "northwndGo/helper"
 )
 
 func Message(status bool, message string) map[string]interface{} {

@@ -10,7 +10,7 @@ import (
 
 func Client() *firestore.Client {
 	ctx := context.Background()
-	opt := option.WithCredentialsFile("northwndapiwithgo-cd86601512be.json")
+	opt := option.WithCredentialsFile("firebase-credentials.json")
 	app, err := firebase.NewApp(ctx, nil, opt)
 	if err != nil {
 		log.Fatal(err.Error())

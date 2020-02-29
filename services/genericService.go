@@ -2,9 +2,9 @@ package services
 
 import (
 	"context"
-	f "northwndGo/firestore"
-	i "northwndGo/inputs"
-	u "northwndGo/utils"
+	f "github.com/ybalcin/northwndGo/firestore"
+	i "github.com/ybalcin/northwndGo/inputs"
+	u "github.com/ybalcin/northwndGo/utils"
 )
 
 func GetAll(input i.GetInput) ([]map[string]interface{}, error) {

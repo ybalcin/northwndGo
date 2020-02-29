@@ -1,12 +1,12 @@
 package services
 
 import (
+	"github.com/ybalcin/northwndGo/db"
+	f "github.com/ybalcin/northwndGo/firestore"
+	h "github.com/ybalcin/northwndGo/helper"
+	i "github.com/ybalcin/northwndGo/inputs"
+	m "github.com/ybalcin/northwndGo/models"
 	"golang.org/x/net/context"
-	"northwndGo/db"
-	f "northwndGo/firestore"
-	h "northwndGo/helper"
-	i "northwndGo/inputs"
-	m "northwndGo/models"
 )
 
 func GetAllTerritoriesFromDb() ([]m.Territory, error) {

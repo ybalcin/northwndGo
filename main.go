@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/gorilla/mux"
+	c "github.com/ybalcin/northwndGo/controllers"
+	h "github.com/ybalcin/northwndGo/helper"
 	"net/http"
-	c "northwndGo/controllers"
-	h "northwndGo/helper"
 	"os"
 )
 

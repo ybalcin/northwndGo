@@ -3,8 +3,8 @@ package helper
 import (
 	s "database/sql"
 	"encoding/json"
+	m "github.com/ybalcin/northwndGo/models"
 	"log"
-	m "northwndGo/models"
 )
 
 func Log(err error) {

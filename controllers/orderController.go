@@ -2,9 +2,9 @@ package controllers
 
 import (
 	m "github.com/gorilla/mux"
+	s "github.com/ybalcin/northwndGo/services"
+	u "github.com/ybalcin/northwndGo/utils"
 	"net/http"
-	s "northwndGo/services"
-	u "northwndGo/utils"
 )
 
 var GetAllOrders = func(w http.ResponseWriter, r *http.Request) {

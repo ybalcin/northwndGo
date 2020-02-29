@@ -3,11 +3,11 @@ package services
 import (
 	"context"
 	"database/sql"
-	"northwndGo/db"
-	f "northwndGo/firestore"
-	h "northwndGo/helper"
-	i "northwndGo/inputs"
-	m "northwndGo/models"
+	"github.com/ybalcin/northwndGo/db"
+	f "github.com/ybalcin/northwndGo/firestore"
+	h "github.com/ybalcin/northwndGo/helper"
+	i "github.com/ybalcin/northwndGo/inputs"
+	m "github.com/ybalcin/northwndGo/models"
 	"os"
 )
 
